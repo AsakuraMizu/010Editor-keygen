@@ -9,7 +9,7 @@ int main() {
 
     std::tm ZeroDate = { 0, 0, 0, 1, 1, 1970 - 1900 };
 
-    int ExpireYear = 2020;
+    int ExpireYear = 2030;
     int ExpireMonth = 6;
     int ExpireDay = 23;
     std::tm ExpireDate = { 0, 0, 0, ExpireDay, ExpireMonth, ExpireYear - 1900 };
